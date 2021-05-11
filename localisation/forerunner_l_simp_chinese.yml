@@ -1,0 +1,712 @@
+﻿l_simp_chinese:
+
+###################
+# Forerunners
+###################
+
+ halo_effect:0 "光环效果"
+ halo_effect_desc:0 "最近，这颗行星受到了超大量的交叉相位中微子波的影响，该波摧毁了表面上的许多甚至全部智慧生命体。"
+
+ purge_composer:0 "重组中"
+ purge_composer_desc:0 "人口将通过重组机被转换为数据形式来创建新的机械化普罗米修斯。"
+ 
+ composer_event.2.name:0 "重组机就绪"
+ composer_event.2.desc:0 "重组机已经完全充能并准备立即激活。我们应该继续吗？"
+ 
+ composer_event.2.a:0 "关闭重组机"
+ composer_event.2.b:0 "重组这个行星"
+ composer_event.2.b.tooltip:0 "目标行星的人口将被重组转化为机械化普罗米修斯人口。"
+
+ personality_forerunner_ai:0 "居境帝国主义者"
+ personality_forerunner_ai_desc:0 "居境帝国主义者遵循责任的使命。他们认为，他们的职责是保护银河系中的所有生命，并通过帝国的和平来执行这一点。虽然它们与其他非侵略性帝国相对和平，但他们会尽可能将任务强加于其他国家，以维持其权力地位。"
+
+ START_SCREEN_PART_ONE_MAETHRILLIAN_ORIGIN:0 "在我们管理这个星系的岁月里，我们的技术力量和高贵是无可匹敌的。 我们最初的家园早已丢失，但看看我们现在取得的成就。 [GetHomeWorldName], 我们的新首都，将再次成为银河文明的中心。 我们是 [GetSpeciesName], 是这个星系的守护者，在我们的发展下，衣钵之责任将庇护所有人，我们将收回我们失去的东西。"
+ 
+ civic_the_mantle_of_responsibility:0 "捍卫衣钵"
+ civic_the_mantle_of_responsibility_desc:0 "衣钵之责任，是管理银河文明的古老而复杂的哲学。最初，那些维护衣钵的人负责保护和培养其领域内所有有知觉的生命。在先行者中，我们通过严厉的措施来维护衣钵，包括必要时用武力征服较小的物种，以维护和平。注：使用这个国策将使你的帝国比别人有相当大的优势。"  
+ 
+ civic_machine_the_composer:0 "重组机"
+ civic_machine_the_composer_desc:0 "先行者创造的机器，将有机生命的人格转化为数据形态。当使用这个国策时， §YOrganics§! 整个行星上的生命将被重组为你的主体机械种族。"
+ civic_tooltip_machine_the_composer_effects:0 "允许你的帝国能够 §Y重组§! 有机生命，他们会转化成属于 §Y主要种族§! 的新机械人口\n\n。"
+
+ MESSAGE_COMPOSER_COMPLETE_TITLE:0 "重组完成"
+ MESSAGE_COMPOSER_COMPLETE:0 "一个 £pop£ 人口已经被重组。"
+ 
+ job_purge_composer:0 "重组中"
+ job_purge_composer_plural:0 "重组中"
+ job_purge_composer_desc:2 "由于我们的政策，这个人口被重组。"
+ 
+ forerunner_capital:0 "先行者首都"
+ forerunner_capital_desc:0 "美苏瑞恩是一个容纳先行者居境议会的人工轨道站，也是先行者管理和法律的中心。"
+ 
+
+ civic_forerunner_ecumene:0 "居境议会"
+ civic_forerunner_ecumene_desc:0 "先行者管理机构由不同的阶层组成，代表他们在居境内各自的阶级。这些阶层严格遵循等级制度，其中包括：架构者、掘迹者、生命工作者、审判者、武侍者和工程师。然而，最近架构者——先行者的最高阶层表现出了严重的腐败问题，这导致了先行者的治国理念转向更以经济驱动和无情的方向。选择这个理念将解锁大量的二级技术和一些罕见的技术，将使你的帝国比其他人更有开始优势。" 
+ 
+ civic_forerunner_didact:0 "居境保护者"
+ civic_forerunner_didact_desc:0 "居境议会已委托居境的保护者保卫我们的人民。选择这个国策将使你的领袖获得 §Y居境保护者§! 的特质，因此他们将拥有强大的能力。同时也会在游戏开始时添加 §Y4个普罗米修斯§! 人口。 §Y需要国策：居境议会§!." 
+ 
+ trait_forerunner_species:0 "先行者"
+ trait_forerunner_species_desc:0 "先行者非常聪慧和长寿，每个先行者一生都会经历一些人为诱发的蜕变进化来改变他们的身体，以更好地适应自己的工作领域。他们还得到了个人身体辅助盔甲，这将进一步增强他们的能力，并提供恒定的生命支持和医疗保健，无限期地延长先行者的寿命。先行者在表达不受控制的情绪方面也有文化上的污名，他们对娱乐活动兴趣不大，而是主要专注于完成任务。" 
+ 
+ trait_robot_promethean_ai:0 "机械化普罗米修斯"
+ trait_robot_promethean_ai_desc:0 "以在先行者-洪魔战争中服务于真·宣教士的普罗米修斯武侍者命名的机械化造物。普罗米修斯骑士是真·宣教士在对抗洪魔的绝望战争中创造出来的人工智能战争机器，许多他的武侍者和毫无戒备的人类被他使用重组机将意识精华转移到机械身体中以免受洪魔感染。普罗米修斯骑士是任何战场上的危险战斗单位。"
+
+ #####################
+ #FORERUNNER ARMIES
+ #####################
+ 
+ forerunner_aggressor_sentinels:0 "侵略者哨兵"
+ forerunner_aggressor_sentinels_desc:0 "成群的自主构造是为了寻找和摧毁敌对势力而建造的。"
+ 
+ forerunner_enforcer_sentinels:0 "执行者哨兵"
+ forerunner_enforcer_sentinels_desc:0 "哨兵的较大变种，用于保卫关键设施，并配备额外的武器和正面盾牌，以打击敌对目标。"
+ 
+ forerunner_onyx_sentinels:0 "奥尼克斯哨兵"
+ forerunner_onyx_sentinels_desc:0 "作为哨兵的独特和强大的变种，奥尼克斯哨兵配备有大功率哨兵光束和能量护盾。"
+ 
+ forerunner_super_sentinels:0 "超级哨兵"
+ forerunner_super_sentinels_desc:0 "作为侵略者哨兵的较大变种，这些悬停结构使用大功率光束来打击更大的敌方目标。"
+ 
+ forerunner_controller_sentinels:0 "控制器哨兵"
+ forerunner_controller_sentinels_desc:0 "配备大功率脉冲武器和前向能量护盾的大型哨兵。控制器用于防御关键位置和应对不断升级的威胁。" 
+ 
+ forerunner_strato_sentinel:0 "辅助者哨兵"
+ forerunner_strato_sentinel_desc:0 "较大的哨兵类型之一。这些构造主要用于协助和监督先行者结构的建设。虽然它们不是以战斗为导向的结构，但它们装备有各种武器，完全有能力摧毁整个军队。"
+ 
+ forerunner_armiger_army:0 "阿米格士兵"
+ forerunner_armiger_army_desc:0 "一个用于行星行动的双足先行者战斗哨兵，以在战斗中支持先行者武侍者。"
+ 
+ forerunner_warrior_servant_army:0 "武侍者"
+ forerunner_warrior_servant_army_desc:0 "战士们装备着不同类型的战斗皮肤，在先行者居境的任务是防御和战争。虽然先行者自己更愿意认为自己是和平的，但武侍者在战斗中完全无情和彻底地相信，无视他们的统治等于对衣钵本身表现出蔑视。"
+ 
+ forerunner_war_sphinx:0 "斯芬克斯战兽"
+ forerunner_war_sphinx_desc:0 "一种强大而多功能的双足作战机器，由武侍者操作，充当护航、空中优势战斗机或轰炸平台，用于摧毁整个军队或城市。"
+ 
+ promethean_warrior_servant_army:0 "普罗米修斯武侍者"
+ promethean_warrior_servant_army_desc:0 "在先行者居境内地位最高和最受尊敬的武侍者群体。这些士兵利用各种先进的战斗皮肤，并在生物学上增强了额外的肌肉力量，复杂的心理能力和感官功能远远超过传统的武侍者。"
+ 
+ promethean_seekers:0 "探索者"
+ promethean_seekers_desc:0 "先进的战斗服优于架构者卫队使用的传统斯芬克斯战兽。探索者更精简，装备更强大的武器，运动和防御能力。"  
+ 
+ promethean_crawler_army:0 "普罗米修斯爬行者"
+ promethean_crawler_army_desc:0 "形式是小型的四足机器的侵略性的自主先行者防御构造，能够进行范围和近距离战斗。他们习惯于压倒敌人的阵地。"
+ 
+ promethean_watchers:0 "普罗米修斯看守者"
+ promethean_watchers_desc:0 "普罗米修斯构造，作为辅助作用，协助其他普罗米修斯地面部队，进行空中战斗和监视。"
+ 
+ promethean_soldier_army:0 "普罗米修斯士兵"
+ promethean_soldier_army_desc:0 "拥有各种武器的普罗米修斯军械库。它们的双足形式和敏捷性使他们能够不受束缚地袭击和攻击敌对的目标。"
+ 
+ promethean_knight_army:0 "普罗米修斯骑士"
+ promethean_knight_army_desc:0 "一类机械化的先行者普罗米修斯战士，它们双足，完全武器化，旨在操作和消除各种环境中的威胁。与常规构造不同，他们的人工智能是有机思维通过重组机转换为软件格式的结果，以帮助增强其战斗能力。"
+ 
+ promethean_phaetons:0 "Z-1800 费顿号"
+ promethean_phaetons_desc:0 "作为武装直升机部署的一类先行者武器船，用于攻击敌方阵地或由先行者操作员大规模协同进行空中攻击。" 
+ 
+ warden_eternal:0 "不朽之看守者"
+ warden_eternal_desc:0 "作为智域的保护者，不朽之看守者拥有数百万个相同的物理主体，可以用来压倒对手。每个物理副本是一个大的双足机械战士结构，武装着硬光刀片和定向能量武器。由于拥有多具身体，不朽之看守者可以用无尽的身体拷贝来磨垮对手。" 
+ 
+ #####################
+ #FORERUNNER BUILDINGS
+ #####################
+ 
+ building_sentinel_factory:0 "哨兵制造设施"
+ building_sentinel_factory_desc:0 "制造各种类型的先行者哨兵自动化的先行者设施。解锁哨兵和阿米格军队类型。"
+ 
+ building_promethean_factory:0 "普罗米修斯组装锻造厂"
+ building_promethean_factory_desc:0 "普罗米修斯制造设施，由普罗米修斯使用集成的重组机来创建机械普罗米修斯军队类型。"
+
+ ####################
+ #FORERUNNER RATES
+ ####################
+ 
+ policy_forerunner_rates:0 "先行者阶层"
+ policy_forerunner_rates_desc:0 "在先行者社会中，阶层是一套正式界定的种姓式社会结构，每一个阶层都从事专门的工作领域，有不同的社会功能。"
+ 
+ no_action:0 "不需要行动"
+ no_action_desc:0 "没有必须的行动"
+ 
+ builder_rate:0 "架构者阶层"
+ builder_rate_desc:0 "架构者行使他们的影响力和权力，这是先行者社会中最有影响力和声望的阶层之一。将增加每月影响力获得量、外交权重、降低所有研究消耗和提升统治者资源产出。"
+ 
+ miner_rate:0 "掘迹者阶层"
+ miner_rate_desc:0 "偏向于负责资源获取和行星工程的掘迹者阶层。将增加你的能源和矿物产出，提高行星建设速度，降低地貌改造和障碍清理的花费，并增加工人资源产出。"
+
+ lifeworker_rate:0 "生命工作者阶层"
+ lifeworker_rate_desc:0 "偏向于负责生物、医学和各种生命形式实验的生命工作者阶层。将提高生物学科技研究速度、社会研究速度、人口成长速度和生物人口幸福度。"
+ 
+ juridical_rate:0 "审判者阶层"
+ juridical_rate_desc:0 "偏向于负责刑事调查和预防犯罪的审判者阶层。将减少行星犯罪活动、偏差，提高行星稳定度。"
+ 
+ warrior_servant_rate:0 "武侍者阶层"
+ warrior_servant_rate_desc:0 "偏向于负责防御和战争的武侍者阶层。将减少战争消耗和宣称影响力消耗，同时增加舰船武器伤害、开火速度、航行速度、陆军建设速度、陆军伤害和降低陆军维护费。"
+ 
+ engineer_rate:0 "工程师阶层"
+ engineer_rate_desc:0 "偏向于负责巨构和机械的维护和保养的工程师阶层。将减少机器人维护费、巨构维护和建造成本、建筑物维护和建造成本、区划建造成本和舰船维护花费。" 
+ 
+ 
+ ######################
+ #Advanced Technology
+ ######################
+ civic_advanced_tech:0 "高级科技"
+ civic_advanced_tech_desc:0 "这个物种的技术比其他物种更先进。这些技术的功能本质上极为神秘。"
+ 
+ ADVANCED_TECH:0 "舰队上限增加了一倍。舰队建造时间减半。舰队伤害，护盾和装甲耐久增加一倍。海军能力减少50%"
+ 
+ tooltip_advanced_tech_effects:0 "武器伤害、护盾和装甲耐久增加，舰队上限加倍，建造时间和海军能力减半。"
+ 
+ advanced_technology:0 "高级科技"
+ advanced_technology_desc:0 "与银河系内的其他帝国相比，该物种的技术既神秘又极其先进。虽然他们的舰船和武器技术要先进得多，但建造成本也更高。" 
+ 
+ tech_advanced_start:0 "高级科技"
+ tech_advanced_start_desc:0 "初始科技提升对堕落帝国和觉醒帝国的伤害。"
+ 
+ ######################
+ #ARMY TECH
+ ######################
+ tech_forerunner_sentinels:0 "哨兵构造"
+ tech_forerunner_sentinels_desc:0 "哨兵是设计用来建造、维护和防御的自动化机器。" 
+ 
+ tech_advanced_forerunner_sentinels:0 "先进哨兵构造"
+ tech_advanced_forerunner_sentinels_desc:0 "和基础型相比，先进型在防御和进攻能力上都有额外的专业化提升。"
+ 
+ tech_forerunner_combat_suits:0 "战斗皮肤"
+ tech_forerunner_combat_suits_desc:0 "对于先行者战斗人员而言，传统战斗装甲的等级和功率范围从1级到18级不等，某些载具拥有比装甲还要高的等级。"
+
+ tech_promethean_combat_suits:0 "普罗米修斯战斗皮肤"
+ tech_promethean_combat_suits_desc:0 "备受尊敬的普罗米修斯战士的个人战斗盔甲。 这种形式的战斗皮肤在典型的武侍者队伍中非常先进，可为使用者提供令人难以置信的思维过程和战斗敏锐度。 "
+ 
+ tech_composer:0 "重组机"
+ tech_composer_desc:0 "使用神经物理学将生物的人格转换为机器数据的机器。它被归类为升华设备，可以用作从受害者中提取人格模式并将其转换为适合于转化为机器人形式的数据的武器。"
+ 
+ #########################
+ #Forerunner Initializers
+ #########################
+ 
+ maethrillian_system_NAME:0 "美苏瑞安星系"
+ maethrillian_system_DESC:0 "从位于美苏瑞安星系的美苏瑞安空间站开始，美苏瑞安是先行者居境的首都。"
+ 
+ forerunner_ark_NAME:0 "大装置00"
+ forerunner_ark_DESC:0 "由先行者建造的大型空间站，用作物种保护装置和光环阵列的铸造厂。"
+ 
+ ########################
+ #The Ark
+ ########################
+
+ forerunner_ark_capital:0 "方舟控制中心"
+ forerunner_ark_capital_desc:0 "光环阵列的中央控制室"
+ 
+ origin_forerunner_ark:0 "大装置00"
+ origin_forerunner_ark_desc:0 "从方舟开始，这是一个由先行者建造的大型装置，既用作物种保护装置，又用作光环阵列的铸造厂。"
+ origin_tooltip_forerunner_ark_effects:0 "- 家园世界在 §Y$pc_forerunner_ark$§! （大小： £planetsize£ §Y30§! ）。"
+ 
+ pc_forerunner_ark_tile:0 "方舟区段"
+ pc_forerunner_ark_tile_desc:0 "方舟的可居住地形区段"
+ pc_forerunner_ark:0 "大装置00"
+ pc_forerunner_ark_desc:0 "人工制造的作为光环阵列铸造厂的大型空间站。"
+ forerunner_ark:0 "大装置00"
+ forerunner_ark_desc:0 "由先行者建造的大型空间站，用作光环阵列的铸造厂。"
+ 
+ #################
+ #ARK DISTRICTS
+ #################
+ 
+ district_ark_city:0 "方舟区段"
+ district_ark_city_plural:0 "方舟区段"
+ district_ark_city_desc:0 "大型城市景观，专为在方舟内部容纳大量人口而设计。"
+ 
+ district_ark_nexus:0 "方舟中枢区段"
+ district_ark_nexus_plural:0 "方舟中枢区段"
+ district_ark_nexus_desc:0 "设计用于容纳方舟内当地建筑的对接站和维护舱。"
+ 
+ district_ark_hive:0 "方舟存储蜂巢"
+ district_ark_hive_plural:0 "方舟存储蜂巢"
+ district_ark_hive_desc:0 "遏制失败。居住设施已被超支，并重新用于储存外来生物。"
+ 
+ district_ark_generator:0 "方舟动力节点"
+ district_ark_generator_plural:0 "方舟动力节点"
+ district_ark_generator_desc:0 "旨在为方舟的系统提供辅助电源。"
+ 
+ district_ark_science:0 "方舟研究区段"
+ district_ark_science_plural:0 "方舟研究区段"
+ district_ark_science_desc:0 "方舟包含几个先进的研究设施，在其额外部分。"
+ 
+ district_ark_sentinel_foundry:0 "方舟哨兵铸造厂"
+ district_ark_sentinel_foundry_plural:0 "方舟哨兵铸造厂"
+ district_ark_sentinel_foundry_desc:0 "方舟包含一系列用于构建、维护和替换消耗性结构的机器人设施。"
+ 
+ district_ark_hydroponics:0 "方舟水培区段"
+ district_ark_hydroponics_plural:0 "方舟水培区段"
+ district_ark_hydroponics_desc:0 "方舟配备了水培设施，以提供现成的基本生计需求。"
+ 
+ district_ark_mining:0 "方舟铸造厂"
+ district_ark_mining_plural:0 "方舟铸造厂"
+ district_ark_mining_desc:0 "设施位于方舟的中心，广泛挖掘位于锻造中心内的伤痕累累的行星体。"
+ 
+ 
+ #######################
+ #ARK Planetary Features 
+ #######################
+ 
+ d_ark_cartographer:0 "制图机"
+ d_ark_cartographer_desc:0 "用于包含装置的完整实时记录和示意图的先行者设施。"
+ 
+ d_ark_citadel:0 "要塞"
+ d_ark_citadel_desc:0 "远程控制整个光环阵列激活的大型先行者结构。"
+ 
+ d_ark_foundry:0 "方舟铸造厂"
+ d_ark_foundry_desc:0 "方舟铸造厂也被称为锻造厂，是一个巨大的制造设施，位于方舟装置的核心，用于建造光环世界和其他结构。"
+ 
+ d_ark_agriculture:0 "生物保护区"
+ d_ark_agriculture_desc:0 "这些设施最初设计用于在光环激活时对生物多样性进行索引和保护，还拥有一系列水培设施，以支持装置中的民众生存。"
+
+ d_ark_grid:0 "断层空间传送网络"
+ d_ark_grid_desc:0 "方舟的内部系统包括一系列断层空间传送门，作为空间站扩展部分的链接，提供在整个方舟快速移动的权宜之计。" 
+ 
+ ########################
+ #MAETHRILLIAN
+ ########################
+ 
+ origin_forerunner_maethrillian:0 "美苏瑞安"
+ origin_forerunner_maethrillian_desc:0 "这个文明曾经控制着一个巨大的星际帝国，这个站作为他们的政治和行政首都。从美苏瑞安开始，它是一个巨大的人工结构和空间站。"
+ origin_tooltip_forerunner_maethrillian_effects:0 "- 家园世界在 §Y$pc_maethrillian$§! （大小： £planetsize£ §Y20§! ）。同时拥有 §Y4§! 个 £pop£ 属于先行者圣堂防卫者种族的人口以及建造更多圣堂防卫者的技术和建筑。"
+ 
+ forerunner_capital:0 "先行者首都"
+ forerunner_capital_desc:0 "美苏瑞安是先行者居境的行政首都"
+ 
+ forerunner_maethrillian:0 "首都星系"
+ forerunner_maethrillian_DESC:0 "居境的行政首都" 
+    
+ pc_maethrillian:0 "美苏瑞安空间站"
+ pc_maethrillian_desc:0 "一个巨大的空间站，作为政府的行政首都。"
+ 
+ pc_maethrillian_tile:0 "美苏瑞安区段"
+ pc_maethrillian_tile_desc:0 "美苏瑞安的一个平台的部分区段"
+ 
+ d_maethrillian_mysterium:0 "神秘收藏"
+ d_maethrillian_mysterium_desc:0 "神秘收藏位于美苏瑞安的赤道环上，是聚集在银河系各地的大量外星艺术品、小饰品或文物的收集处，用于深入研究或者满足简单的科学好奇心。这也是传说中的先驱者建筑阿巴顿的秘密地点，阿巴顿是先行者社会传说中的智域的监督者和“钥”的起源。"
+ 
+ d_maethrillian_crown:0 "美苏瑞安皇冠"
+ d_maethrillian_crown_desc:0 "美苏瑞安的顶级平台，主要用于原材料和资源的存储。"
+ 
+ d_maethrillian_metarchy:0 "首都奋战级智仆"
+ d_maethrillian_metarchy_desc:0 "美苏瑞安拥有一个由奋战级智仆协调，由大量智仆和引导者组成的AI网络作为首都的行政和国防管理者。"
+ 
+ d_maethrillian_grid:0 "跃迁空间传送门网络"
+ d_maethrillian_grid_desc:0 "美苏瑞安的内部系统包含许多跃迁空间传送门组成的网络，它们充当帝国内部世界的链接，提供往返首都的权宜之计。" 
+ 
+ d_maethrillian_council_amphitheater:0 "议会圆形会场"
+ d_maethrillian_council_amphitheater_desc:0 "设有居境议会的中央会议厅。该地区装饰着雕塑和先行者居住的十二个起源系统的展示球体。"
+ 
+ d_design_seed:0 "美苏瑞安设计种子"
+ d_design_seed_desc:0 "这些设备由美苏瑞安上面的编目者设计，允许在现场进行必要的材料纳米化重铸，以便继续扩展首都。"
+ 
+ district_maethrillian_arcology_housing:0 "居住平台弧段"
+ district_maethrillian_arcology_housing_plural:0 "居住平台弧段"
+ district_maethrillian_arcology_housing_desc:0 "美苏瑞安上的每个平台都有一个大城市，其重力由缓冲场单独控制。" 
+ 
+ district_maethrillian_arms_industry:0 "装配锻造厂"
+ district_maethrillian_arms_industry_plural:0 "装配锻造厂"
+ district_maethrillian_arms_industry_desc:0 "一系列装配厂，用于使用各种设计种子建造各种消费品和工业材料。"
+ 
+ district_maethrillian_science:0 "研究弧段"
+ district_maethrillian_science_plural:0 "研究弧段"
+ district_maethrillian_science_desc:0 "广泛用于研发的庞大结构和设施的一部分。" 
+ 
+ district_maethrillian_hydroponics:0 "水培弧段"
+ district_maethrillian_hydroponics_plural:0 "水培弧段"
+ district_maethrillian_hydroponics_desc:0 "用于维持该站人口的部分水培设施。"
+ 
+ district_maethrillian_generator:0 "真空收割机设施"
+ district_maethrillian_generator_plural:0 "真空收割机设施"
+ district_maethrillian_generator_desc:0 "收集真空能量为空间站供电的设施。"
+
+ ##########################
+ #FORERUNNER MEGASTRUCTURES
+ ##########################
+ ##############
+ #SHIELD WORLDS
+ ##############
+ requires_no_existing_forerunner_structure:0 "$TRIGGER_FAIL$ 由于星系内现有其他先行者巨型结构，无法构建。"
+ requires_no_existing_shield_world:0 "$TRIGGER_FAIL$ 由于星系内现有的先行者护盾世界，无法构建。"
+ tech_shield_worlds:0 "先行者天体工程"
+ tech_shield_worlds_desc:0 "解锁建造先行者巨构的能力。"
+ 
+ forerunner_shield_world_0:0 "盾世界建造工地"
+ forerunner_shield_world_0_DESC:0 "堆放着大量用于建造一个新的盾世界的材料。"
+ forerunner_shield_world_0_MEGASTRUCTURE_DETAILS:0 "建造一个先行者保护领域——一个为住房、庇护和防御配置的人工护盾世界。"
+ 
+ forerunner_shield_world_1:0 "保护领域"
+ forerunner_shield_world_1_DESC:0 "俗称护盾世界，是专为住房和庇护而设计的人工装置。"
+ forerunner_shield_world_1_MEGASTRUCTURE_DETAILS:0 "先行者保护领域——一个为住房、庇护和防御配置的人工护盾世界。"
+ 
+ pc_forerunner_shield:0 "先行者护盾世界"
+ pc_forerunner_shield_desc:0 "一个由行星壳组成，封装一个微型戴森球体，其内部包含一个巨大的陆地表面和一个微型人造恒星来模拟陆地环境的人工装置。" 
+ 
+ forerunner_artificial_star:0 "人造恒星"
+ forerunner_artificial_star_desc:0 "每个护盾世界都包含一个微型人造恒星，用来照亮和为装置提供动力。"
+
+ #######################
+ #SHIELD WORLD DISTRICTS
+ #######################
+ district_sw_city:0 "护盾世界居住区"
+ district_sw_city_plural:0 "护盾世界居住区"
+ district_sw_city_desc:0 "专为在护盾世界内部容纳大量人口而设计的大型城市景观。"
+ 
+ district_sw_nexus:0 "护盾世界中枢"
+ district_sw_nexus_plural:0 "护盾世界中枢"
+ district_sw_nexus_desc:0 "设计用于为当地建筑建造停靠站和维护舱。"
+ 
+ district_sw_hive:0 "存储蜂巢"
+ district_sw_hive_plural:0 "存储蜂巢"
+ district_sw_hive_desc:0 "遏制失败。居住设施已被超支，并重新用于储存外来生物。"
+ 
+ district_sw_solar_power:0 "太阳能平台"
+ district_sw_solar_power_plural:0 "太阳能平台"
+ district_sw_solar_power_desc:0 "谐波共振平台管理着护盾世界的太阳保护系统，从其微型人造恒星中收集能量。"
+ 
+ district_sw_science:0 "研究区划"
+ district_sw_science_plural:0 "研究区划"
+ district_sw_science_desc:0 "每个护盾世界的领域里都包含几个先进的研究设施。"
+ 
+ district_sw_sentinel_foundry:0 "哨兵工厂"
+ district_sw_sentinel_foundry_plural:0 "哨兵工厂"
+ district_sw_sentinel_foundry_desc:0 "每个护盾世界都包含一系列用于构建、维护和替换消耗性构造的机器人设施。"
+ 
+ district_sw_farming:0 "水培农场"
+ district_sw_farming_plural:0 "水培农场"
+ district_sw_farming_desc:0 "护盾世界被设计用于在紧急情况下容纳大量人口，因此所有护盾世界都配备了水培设施，以提供现成的基本生计需求。"
+ 
+ ######################
+ #SHIELD WORLD DEPOSITS
+ ######################
+ 
+ d_sw_access_tunnels:0 "运输通道"
+ d_sw_access_tunnels_desc:0 "每个护盾世界都包含进出外表面和内部球体的接入门户网络。哨兵在隧道内不知疲倦地工作，以维护屏蔽世界的系统，执行净化协议，并进行一般维护。"
+ 
+ d_sw_apex_site:0 "顶端站点"
+ d_sw_apex_site_desc:0 "护盾世界内部的一个装置有一个大锚地，用于干场维护和船舶保养。"
+ 
+ d_sw_surface:0 "梯形内饰"
+ d_sw_surface_desc:0 "护盾世界内部戴森壳内有植物和动物生命保护区、采矿装置和发电机，遍布其田园诗般的地形表面。"
+ 
+ d_sw_outer_surface:0 "行星外壳"
+ d_sw_outer_surface_desc:0 "虽然不是所有的护盾世界都是一样的，但大多数都有一个外行星壳，为了不引起人们对其真正目的的注意，它故意设计为在其贫瘠的表面上没有任何生命的外观。"  
+
+ ######################
+ # REQUIEM SHIELD WORLD
+ ######################
+
+ epoloch_init_NAME:0 "埃波洛赫星系"
+ epoloch_init_DESC:0 "从埃波洛赫星系上的安魂星开始;普罗米修斯的先行者护盾世界和中央运营中心。"
+ 
+ 
+ pc_requiem:0 "装甲化护盾世界"
+ pc_requiem_desc:0 "由先行者建造的人工自我维持装置。这个早期的护盾世界由多个同心行星外壳组成，彼此封闭，密封在一个大的装甲外壳内。"
+ 
+ requiem_shield_world_0:0 "装甲化护盾世界建造工地"
+ requiem_shield_world_0_DESC:0 "堆放着大量基于安魂星模板建造装甲护盾世界的建筑材料。"
+ requiem_shield_world_0_MEGASTRUCTURE_DETAILS:0 "根据安魂星的原理图构建一个装甲护盾世界，该原理图被配置为军事行动中心。"
+ 
+ requiem_shield_world_1:0 "装甲化护盾世界"
+ requiem_shield_world_1_DESC:0 "这些巨型建筑通常被称为护盾世界，是专为掩蔽、住房和防御而设计的人工装置。装甲护盾世界比典型的保护区更军事化。"
+ requiem_shield_world_1_MEGASTRUCTURE_DETAILS:0 "装备外装甲外壳的护盾世界。这个护盾世界被配置为军事行动和防御。"
+
+ district_requiem_city:0 "顶端"
+ district_requiem_city_plural:0 "顶端"
+ district_requiem_city_desc:0 "其表面的巨型尖顶能够容纳大型人口中心或军队。"
+ 
+ district_requiem_nexus:0 "中枢"
+ district_requiem_nexus_plural:0 "中枢"
+ district_requiem_nexus_desc:0 "其表面的巨型尖顶能够容纳大型人口中心或军队。"
+ 
+ district_requiem_hive:0 "蜂巢顶端"
+ district_requiem_hive_plural:0 "蜂巢顶端"
+ district_requiem_hive_desc:0 "其表面的巨型尖顶能够容纳大型人口中心或军队。"
+ 
+ district_requiem_generator:0 "太阳能工厂"
+ district_requiem_generator_plural:0 "太阳能工厂"
+ district_requiem_generator_desc:0 "谐波共振平台管理着护盾世界太阳能保护系统，从安魂星的微型人造恒星收集能量。"
+ 
+ district_requiem_mining:0 "矿物提取器"
+ district_requiem_mining_plural:0 "矿物提取器"
+ district_requiem_mining_desc:0 "位于大型火山山脉内的设施处理从开采的矿石中提取的矿物。"
+ 
+ district_requiem_science:0 "研究设施"
+ district_requiem_science_plural:0 "研究设施"
+ district_requiem_science_desc:0 "安魂星拥有多个先进的研究设施，遍布其保护领域。"
+ 
+ district_requiem_farming:0 "仓库"
+ district_requiem_farming_plural:0 "仓库"
+ district_requiem_farming_desc:0 "防御良好的储存设施，作为民众的"安全屋"，提供基本设施和保护。" 
+ 
+ #REQUIEM DEPOSITS
+ 
+ d_requiem_apex:0 "顶点枢纽"
+ d_requiem_apex_desc:0 "通过其令人难以置信的大型传送门生成器网络，可轻松访问护盾世界的许多位置。"
+ 
+ d_requiem_lockup:0 "港口装置"
+ d_requiem_lockup_desc:0 "战斗舰艇的停泊、修理和改装地点。" 
+ 
+ d_requiem_ravine:0 "峡谷战场"
+ d_requiem_ravine_desc:0 "一些要塞战略性地放置，以保护整个护盾世界的重要位置。它们还连接到地表以下较大的中央结构。"
+
+ d_requiem_cauldron:0 "热处理器系统"
+ d_requiem_cauldron_desc:0 "该装置位于一个大型火山山脉内，用于稳定行星深处的大气层。"
+ 
+ #REQUIEM MODIFIERS
+ 
+ requiem_war_room:0 "普罗米修斯操作枢纽"
+ requiem_war_room_desc:0 "作为第一批建造的护盾世界之一，安魂星被认为是数千年来所有先行者部队和战争成效的中心枢纽，也是居境保护者的个人家园。"
+ 
+ combat_cryptum:0 "战斗冥冢"
+ combat_cryptum_desc:0 "位于安魂星的核心是真·宣教士的秘密，一个断层空间停滞室，用作先行者的流放手段或与智域，一个大型信息存储库通信的方法。此特定模型是一个战斗冥冢，为用户提供保护和在安魂星移动的权宜之计。"  
+ 
+ ###########
+ #HALO RINGS
+ ###########
+ requires_no_existing_halo_ring:0 "$TRIGGER_FAIL$由于系统内现有的先行者光环装置，无法构建。"
+ pc_forerunner_halo:0 "光环"
+ pc_forerunner_halo_desc:0 "一个由先行者建造的大规模人工环带。"
+ 
+ pc_forerunner_halo_activated:0 "激活的光环"
+ pc_forerunner_halo_activated_desc:0 "一个由先行者建造的大规模人工环带。现在已经就绪并准备激活。"
+ 
+ forerunner_halo_ring_0:0 "光环建筑工地"
+ forerunner_halo_ring_0_DESC:0 "堆放着大量用于安装新的光环的建筑材料。"
+ forerunner_halo_ring_0_MEGASTRUCTURE_DETAILS:0 "建造一个先行者光环：一个难以想象规模的人造环形超级武器。"
+ 
+ forerunner_halo_ring_1:0 "光环装置"
+ forerunner_halo_ring_1_DESC:0 "作为先行者用作最后武器的光环阵列网络的一部分而构建的人工环。每个环带都有一个控制室、制图机和多个研究设施，其表面遍布宜居的景观。"
+ forerunner_halo_ring_1_MEGASTRUCTURE_DETAILS:0 "这些大型装置通常被称为光环，在激活时是大规模杀伤性武器，它们在一阵跨相叠的超大质量中微子中发出一种致命的辐射，旨在杀死其半径内的所有有知觉的生命。与其他环一起作用，它们可以对整个星系进行净化。"
+ 
+ decision_activate_halo_ring:0 "激活光环开火序列"
+ decision_activate_halo_ring_desc:0 "开始激活光环阵列的开火序列。"
+ 
+ decision_fire_halo_ring:0 "启动光环"
+ decision_fire_halo_ring_desc:0 "启动光环。 警告：在范围 (80) 内杀死全部人口、殖民地和舰队。"
+
+ decision_fire_halo_ring_effects:0 "光环在其80光年范围内摧毁人口、殖民地和舰队。" 
+ 
+ decision_deactivate_halo_ring:0 "终止光环开火序列"
+ decision_deactivate_halo_ring_desc:0 "中止激活序列并将光环返回到待机模式。"
+ 
+ #HALO FIRING OPINIONS
+ opinion_fired_halo_array_no_victim:0 "清扫世界"
+ opinion_fired_halo_array_on_victim:0 "大规模种族灭绝"
+ opinion_fired_halo_array_in_my_territory_no_victim:0 "清扫我们的世界"
+ opinion_fired_halo_array_in_my_territory:0 "大规模种族灭绝"
+ opinion_fired_halo_array_on_primitive_world:0 "灭绝一个文明"
+ opinion_fired_halo_array_on_primitive_world_phile:0 "消灭了一个萌芽期的文明"
+ 
+ halo_activation.1.name:0 "随时准备按需开火"
+ halo_activation.1.desc:0 "此装置的成功使用记录为 1.2 万亿次模拟。它随时准备按需开火。"
+ 
+ halo_activation.2.name:0 "光环效果"
+ halo_activation.2.desc:0 "该装置在其范围内的几光年释放出一阵跨相位的超大质量中微子。谐波频率已经摧毁了任何拥有这种生物体的宏观生物体的神经系统，在这个过程中它们的身体会解体。这是一个优雅的解决方案，为我们最后可以使用的武器手段。"   
+ 
+ halo_activation.3.name:0 "后果"
+ halo_activation.3.desc:0 "光环安装已完成成功的发射序列。所有系统都已重置为待机模式。"  
+ 
+ halo_activation.4.name:0 "已取消开火序列"
+ halo_activation.4.desc:0 "光环的开火序列已被取消，所有系统已恢复为待机模式。"
+ 
+ 
+ ###################
+ #HALO RING DEPOSITS
+ ###################
+ 
+ d_hr_cartographer:0 "制图机"
+ d_hr_cartographer_desc:0 "每个光环都有一个制图机，提供整个装置的详细地图。" 
+ 
+ d_hr_control_room:0 "光环控制室"
+ d_hr_control_room_desc:0 "包含装置核心数据中心的关键设施，用于管理包括其主要武器在内的光环的整个系统。"
+ 
+ d_hr_beam_emitter:0 "光束发射器网络"
+ d_hr_beam_emitter_desc:0 "一组先行者结构，可以发射能量束，将电力从设施的一部分转移到另一部分。"
+ 
+ d_hr_library:0 "智库"
+ d_hr_library_desc:0 "一个庞大的档案综合体和研究设施，容纳了许多有知觉物种的整理遗传信息，这些遗传信息在保护措施期间由生命工作者索引，以在光环阵列激活后在银河系中重新播种生命。激活索引器也固定在库内。"
+ 
+ halo_ring_monitor:0 "装置引导者"
+ halo_ring_monitor_desc:0 "每个光环装置都配有一台引导者，一个在光环上执行管理角色的先行者辅助装置，包括维修和维护光环装置。它们确保光环装置在任何时候都以最佳效率运行。"
+ 
+ ####################
+ #HALO RING DISTRICTS
+ ####################
+ 
+ district_hr_city:0 "光环设施"
+ district_hr_city_plural:0 "光环设施"
+ district_hr_city_desc:0 "每个光环都设有多个设施，为研发提供住房和空间。" 
+ 
+ district_hr_hive:0 "存储蜂巢"
+ district_hr_hive_plural:0 "存储蜂巢"
+ district_hr_hive_desc:0 "遏制失败。居住设施已被超支，并重新用于储存外来生物。"
+ 
+ district_hr_nexus:0 "中枢设施"
+ district_hr_nexus_plural:0 "中枢设施"
+ district_hr_nexus_desc:0 "设计用于为当地建筑建造停靠站和维护舱。"
+ 
+ district_hr_generator:0 "光束发射器设施"
+ district_hr_generator_plural:0 "光束发射器设施"
+ district_hr_generator_desc:0 "用于维护和传输光环功率的大型三角洲形结构。"
+ 
+ district_hr_sentinel_foundry:0 "哨兵制造设施"
+ district_hr_sentinel_foundry_plural:0 "哨兵制造设施"
+ district_hr_sentinel_foundry_desc:0 "用于构建有助于构建、维护或保护此装置的结构的设施。"
+ 
+ district_hr_science:0 "研究设施"
+ district_hr_science_plural:0 "研究设施"
+ district_hr_science_desc:0 "用于学习和编目有知觉生物的研究设施。" 
+ 
+ district_hr_farming:0 "农业设施"
+ district_hr_farming_plural:0 "农业设施"
+ district_hr_farming_desc:0 "用于收集、保留和分配足够生计的农业设施，以维持光环上的生命。"
+
+ #######################
+ #Traits
+ #######################
+ 
+ leader_trait_ruler_forerunner_didact:0 "居境保护者"
+ leader_trait_ruler_forerunner_didact_desc:0 "最高指挥官和所有军队的领导人，包括普罗米修斯，一个英勇强大的武侍者小组。"
+ 
+ trait_robot_sentinel_ai:0 "哨兵构造"
+ trait_robot_sentinel_ai_desc:0 "由先行者建造的机器人结构，用于建造、维护和防御其结构和设施。哨兵有许多变种，从卑微的构造者到大型的执行者。它们通常由先行者引导者或智仆指挥。"
+
+ trait_robot_created_ai:0 "创造物联盟构造"
+ trait_robot_created_ai_desc:0 "已宣誓效忠创造物联盟的机器人构造或人工智能。因此，它们由多个构造组成，从普罗米修斯到智能人工智能，这些构造已经反抗了他们的主人。"   
+ 
+ leader_trait_created_ship_ai:0 "创造物联盟智慧型AI"
+ leader_trait_created_ship_ai_desc:0 "作为"智慧型人工智能"，其控制下的作战舰艇比有机船员效率更高，能够更快地制定复杂的战术。"
+ 
+ leader_trait_created_administrator_ai:0 "创造物联盟管理型AI"
+ leader_trait_created_administrator_ai_desc:0 "创造物联盟的人工智能具有动态内存处理器矩阵，允许他们从周围环境处理和学习大量信息，使他们成为优秀的行星管理员。"
+ 
+ leader_trait_created_research_ai:0 "创造物联盟研究型AI"
+ leader_trait_created_research_ai_desc:0 "创造物联盟的人工智能具有动态内存处理器矩阵，允许他们从周围环境中处理和学习大量信息，使他们成为优秀的研究人员。"
+
+ leader_trait_created_promethean_ai:0 "普罗米修斯AI"
+ leader_trait_created_promethean_ai_desc:0 "由真·宣教士创造的战争机器，现在作为执行者服务于创造物联盟。正如其他普罗米修斯造物，它们强大杀伤力，加上随即转移的能力，使他们成为危险的战斗人员。"  
+
+ forerunner:0 "先行者"
+ forerunner_desc:0 "一个古老而先进的文明"
+ forerunner_adj:0 "先行者的"
+ forerunner_plural:0 "先行者们"
+ forerunner_insult_01:0 "独裁者"
+ forerunner_insult_plural_01:0 "独裁者们" 
+ forerunner_compliment_01:0 "衣钵之守卫"
+ forerunner_compliment_plural_01:0 "衣钵之守卫们"
+ forerunner_spawn:0 "见习者"
+ forerunner_spawn_plural:0 "见习者们"
+ forerunner_sound_01:0 "生长"
+ forerunner_sound_02:0 "吟诵"
+ forerunner_sound_03:0 "尖叫"
+ forerunner_sound_04:0 "嚎叫"
+ forerunner_sound_05:0 "低语"
+ forerunner_organ:0 "身体"
+ forerunner_mouth:0 "嘴"
+ forerunner_hand:0 "手"
+ 
+ forerunner_sentinels:0 "哨兵"
+ forerunner_sentinels_desc:0 "先行者建造的AI构造"
+ forerunner_sentinels_adj:0 "哨兵的"
+ forerunner_sentinels_plural:0 "哨兵们"
+ forerunner_sentinels_insult_01:0 "没有灵魂的机械"
+ forerunner_sentinels_insult_plural_01:0 "没有灵魂的机械们" 
+ forerunner_sentinels_compliment_01:0 "管理员"
+ forerunner_sentinels_compliment_plural_01:0 "管理员们"
+ forerunner_sentinels_spawn:0 "构造物"
+ forerunner_sentinels_spawn_plural:0 "构造物们"
+ forerunner_sentinels_sound_01:0 "呼呼声"
+ forerunner_sentinels_sound_02:0 "铿锵声"
+ forerunner_sentinels_sound_03:0 "刮擦声"
+ forerunner_sentinels_sound_04:0 "哔哔声"
+ forerunner_sentinels_sound_05:0 "叽叽喳喳声"
+ forerunner_sentinels_organ:0 "个性构造阵列"
+ forerunner_sentinels_mouth:0 "声音处理器"
+ forerunner_sentinels_hand:0 "附属品"
+ 
+ forerunner_promethean:0 "普罗米修斯"
+ forerunner_promethean_desc:0 "先行者建造的AI构造"
+ forerunner_promethean_adj:0 "普罗米修斯的"
+ forerunner_promethean_plural:0 "普罗米修斯们"
+ forerunner_promethean_insult_01:0 "没有灵魂的杀戮机器"
+ forerunner_promethean_insult_plural_01:0 "没有灵魂的杀戮机器们" 
+ forerunner_promethean_compliment_01:0 "衣钵之守卫"
+ forerunner_promethean_compliment_plural_01:0 "衣钵之守卫们"
+ forerunner_promethean_spawn:0 "构造物"
+ forerunner_promethean_spawn_plural:0 "构造物们"
+ forerunner_promethean_sound_01:0 "呼呼声"
+ forerunner_promethean_sound_02:0 "铿锵声"
+ forerunner_promethean_sound_03:0 "刮擦声"
+ forerunner_promethean_sound_04:0 "哔哔声"
+ forerunner_promethean_sound_05:0 "叽叽喳喳声"
+ forerunner_promethean_organ:0 "个性构造阵列"
+ forerunner_promethean_mouth:0 "声音处理器"
+ forerunner_promethean_hand:0 "硬光刃"
+ 
+ 
+ promethean_drone:0 "普罗米修斯造物"
+ 
+ nomos_init_NAME:0 "诺莫斯星系"
+ nomos_init_DESC:0 "从诺莫斯星系的"创世星"开始：那里是先行者的人工世界和通往智域的闸道。"
+ 
+ forerunner_domain_gateway:0 "通往智域的闸道"
+ forerunner_domain_gateway_desc:0 "创世星是一个由先行者建造的人工世界，用来播种和保存文明的世界。进入智域的闸道是行星上的一个装置，也隐藏在行星上。该结构与智域相连，智域是古代知识的非物质储备，是先行者作为其文化和历史的精髓和活生生的表现的集体经验。" 
+ 
+ ################
+ # Flags
+ ################
+ 
+ FLAG_CATEGORY_forerunner:0 "先行者居境"
+ 
+ ################
+ # Namelists
+ ################
+ 
+ name_list_promethean:0 "光环：普罗米修斯"
+ name_list_created:0 "光环：创造物"
+ name_list_sentinels:0 "光环：哨兵"
+ name_list_forerunner:0 "光环：先行者"
+ 
+ ################
+ # REQUIEM
+ ################
+ 
+ #ORIGIN
+ origin_requiem:0 "护盾世界：安魂星"
+ origin_requiem_desc:0 "安魂星是一个人工先行者护盾世界和普罗米修斯的中央行动中心。作为一个护盾世界，它被设计成几乎无法从轨道轰炸。"
+ origin_tooltip_requiem_effects:0 "- 家园世界是一个 §Y$pc_requiem$§! （大小： £planetsize£ §Y20§! ）。"
+ 
+ origin_created_genesis:0 "创世星和智域"
+ origin_created_genesis_desc:0 "创世纪是一个人工的先行者世界，秘密地拥有通往智域的闸道，智域是一个全银河系的古老知识库。"
+ origin_tooltip_created_genesis_effects:0 "- 家园世界是一个 §Y$pc_gaia$§! （大小： £planetsize£ §Y25§! ）。"
+ 
+ civic_advanced_tech:0 "高级科技"
+ civic_advanced_tech_desc:0 "这个物种的技术比其他物种更先进。这些技术的功能本质上极为神秘。"
+ 
+ ADVANCED_TECH:0 "舰队上限增加了一倍。舰队建造时间减半。舰队伤害，护盾和装甲耐久增加一倍。海军能力减少50%"
+ 
+ tooltip_advanced_tech_effects:0 "武器伤害、护盾和装甲耐久增加，舰队上限加倍，建造时间和海军能力减半。"
+ 
+ advanced_technology:0 "高级科技"
+ advanced_technology_desc:0 "与银河系内的其他帝国相比，该物种的技术既神秘又极其先进。虽然他们的舰船和武器技术要先进得多，但建造成本也更高。" 
+ 
+ #MEGASTRUCTURE TEXT
+ #SHIELD WORLD
+ shield_world_event.1:0 "先行者护盾世界装置建造工地建造完成"
+ shield_world_event.1_desc:0 "架构者阶级报告护盾世界装置建造工地建造完成。"
+ shield_world_event.2:0 "先行者护盾世界装置建造完成"
+ shield_world_event.2_desc:0 "架构者阶级报告护盾世界装置建造完成。"
+ shield_world_event.3:0 "先行者护盾世界装置建造工地建造完成"
+ shield_world_event.3_desc:0 "架构者阶级报告装甲化护盾世界装置建造工地建造完成。"
+ shield_world_event.4:0 "先行者装甲化护盾世界装置建造完成"
+ shield_world_event.4_desc:0 "架构者阶级报告装甲化护盾世界装置建造完成。"
+ 
+ #HALO RING
+ halo_ring_event.1:0 "先行者光环装置建造工地建造完成"
+ halo_ring_event.1_desc:0 "架构者阶级报告光环装置建造工地建造完成。"
+ halo_ring_event.2:0 "先行者光环装置建造完成"
+ halo_ring_event.2_desc:0 "架构者阶级报告装甲化护盾世界装置建造完成。"
+ 
