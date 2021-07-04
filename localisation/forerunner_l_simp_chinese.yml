@@ -26,7 +26,7 @@
  civic_the_mantle_of_responsibility_desc:0 "衣钵之责任，是管理银河文明的古老而复杂的哲学。最初，那些维护衣钵的人负责保护和培养其领域内所有有知觉的生命。在先行者中，我们通过严厉的措施来维护衣钵，包括必要时用武力征服较小的物种，以维护和平。注：使用这个国策将使你的帝国比别人有相当大的优势。"  
  
  civic_machine_the_composer:0 "重组机"
- civic_machine_the_composer_desc:0 "先行者创造的机器，将有机生命的人格转化为数据形态。当使用这个国策时， §YOrganics§! 整个行星上的生命将被重组为你的主体机械种族。"
+ civic_machine_the_composer_desc:0 "先行者创造的机器，将有机生命的人格转化为数据形态。当使用这个国策时，整个行星上的 §Y有机§! 生命将被重组为你的主体机械种族。"
  civic_tooltip_machine_the_composer_effects:0 "允许你的帝国能够 §Y重组§! 有机生命，他们会转化成属于 §Y主要种族§! 的新机械人口\n\n。"
 
  MESSAGE_COMPOSER_COMPLETE_TITLE:0 "重组完成"
@@ -57,7 +57,7 @@
  #####################
  
  forerunner_aggressor_sentinels:0 "侵略者哨兵"
- forerunner_aggressor_sentinels_desc:0 "成群的自主构造是为了寻找和摧毁敌对势力而建造的。"
+ forerunner_aggressor_sentinels_desc:0 "这些成群的自主构造是为了寻找和摧毁敌对势力而建造的。"
  
  forerunner_enforcer_sentinels:0 "执行者哨兵"
  forerunner_enforcer_sentinels_desc:0 "哨兵的较大变种，用于保卫关键设施，并配备额外的武器和正面盾牌，以打击敌对目标。"
@@ -383,7 +383,7 @@
  ######################
  
  d_sw_access_tunnels:0 "运输通道"
- d_sw_access_tunnels_desc:0 "每个护盾世界都包含进出外表面和内部球体的接入门户网络。哨兵在隧道内不知疲倦地工作，以维护屏蔽世界的系统，执行净化协议，并进行一般维护。"
+ d_sw_access_tunnels_desc:0 "每个护盾世界都包含进出外表面和内部球体的接入门户网络。哨兵在隧道内不知疲倦地工作，以维护护盾世界的系统，执行净化协议，并进行一般维护。"
  
  d_sw_apex_site:0 "顶端站点"
  d_sw_apex_site_desc:0 "护盾世界内部的一个装置有一个大锚地，用于干场维护和船舶保养。"
@@ -512,7 +512,11 @@
  halo_activation.4.name:0 "已取消开火序列"
  halo_activation.4.desc:0 "光环的开火序列已被取消，所有系统已恢复为待机模式。"
  
+ halo_activation.5.name:0 "警告：检测到能量激增"
+ halo_activation.5.desc:0 "刚刚在 [From.GetName] 检测到能量激增。" 
  
+ halo_activation.5.a:0 "准备疏散。"
+
  ###################
  #HALO RING DEPOSITS
  ###################
