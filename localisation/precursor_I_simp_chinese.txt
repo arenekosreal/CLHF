@@ -1,0 +1,2 @@
+name_precursor_list:0 "先驱者名称列表"
+

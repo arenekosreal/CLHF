@@ -1,0 +1,179 @@
+﻿l_simp_chinese:
+
+###################
+# Prometheans
+###################
+ 
+ 
+ civic_the_mantle_of_responsibility:0 "衣钵之责任"
+ civic_the_mantle_of_responsibility_desc:0 "衣钵之责任，是管理银河文明的古老而复杂的哲学。最初，那些维护衣钵的人负责保护和培养其领域内所有有知觉的生命。在先行者中，我们通过严厉的措施来维护衣钵，包括必要时用武力征服较小的物种，以维护和平。注：使用这个国策将使你的帝国比别人有相当大的优势。"  
+ 
+ civic_machine_the_composer:0 "重组机"
+ civic_machine_the_composer_desc:0 "先行者创造的机器，将有机生命的人格转化为数据形态。当使用这个国策时，整个行星上的 §Y有机§! 生命将被重组为你的主体机械种族。"
+ civic_tooltip_machine_the_composer_effects:0 "允许你的帝国能够 §Y重组§! 有机生命，他们会转化成属于 §Y主要种族§! 的新机械人口\n\n。"
+
+ MESSAGE_COMPOSER_COMPLETE_TITLE:0 "重组完成"
+ MESSAGE_COMPOSER_COMPLETE:0 "一个 £pop£ 人口已经被重组。"
+ 
+ job_purge_composer:0 "重组中"
+ job_purge_composer_plural:0 "重组中"
+ job_purge_composer_desc:2 "由于我们的政策，这个人口被重组。"
+ 
+ trait_robot_promethean_ai:0 "机械化普罗米修斯"
+ trait_robot_promethean_ai_desc:0 "以在先行者-洪魔战争中服务于真·宣教士的普罗米修斯武侍者命名的机械化造物。普罗米修斯骑士是真·宣教士在对抗洪魔的绝望战争中创造出来的人工智能战争机器，许多他的武侍者和毫无戒备的人类被他使用重组机将意识精华转移到机械身体中以免受洪魔感染。普罗米修斯骑士是任何战场上的危险战斗单位。"
+ 
+ leader_trait_ruler_forerunner_didact:0 "居境保护者"
+ leader_trait_ruler_forerunner_didact_desc:0 "他是最后幸存的先行者，普罗米修斯的领导者，他从位于安魂星的冥冢中醒来，带领着他的力量试图再次获得衣钵之责任。"
+ 
+ trait_robot_sentinel_ai:0 "哨兵构造"
+ trait_robot_sentinel_ai_desc:0 "由先行者建造的机器人结构，用于建造、维护和防御其结构和设施。哨兵有许多变种，从卑微的构造者到大型的执行者。它们通常由先行者引导者或智仆指挥。"
+
+ trait_robot_created_ai:0 "创造物联盟构造"
+ trait_robot_created_ai_desc:0 "已宣誓效忠创造物联盟的机器人构造或人工智能。因此，它们由多个构造组成，从普罗米修斯到智能人工智能，这些构造已经反抗了他们的主人。"   
+ 
+ leader_trait_created_ship_ai:0 "创造物联盟智慧型AI"
+ leader_trait_created_ship_ai_desc:0 "作为"智慧型人工智能"，其控制下的作战舰艇比有机船员效率更高，能够更快地制定复杂的战术。"
+ 
+ leader_trait_created_administrator_ai:0 "创造物联盟管理型AI"
+ leader_trait_created_administrator_ai_desc:0 "创造物联盟的人工智能具有动态内存处理器矩阵，允许他们从周围环境处理和学习大量信息，使他们成为优秀的行星管理员。"
+ 
+ leader_trait_created_research_ai:0 "创造物联盟研究型AI"
+ leader_trait_created_research_ai_desc:0 "创造物联盟的人工智能具有动态内存处理器矩阵，允许他们从周围环境中处理和学习大量信息，使他们成为优秀的研究人员。"
+
+ leader_trait_created_promethean_ai:0 "普罗米修斯AI"
+ leader_trait_created_promethean_ai_desc:0 "由真·宣教士创造的战争机器，现在作为执行者服务于创造物联盟。正如其他普罗米修斯造物，它们强大杀伤力，加上随即转移的能力，使他们成为危险的战斗人员。"  
+
+ promethean:0 "先行者构造"
+ promethean_desc:0 "先行者建造的AI构造"
+ promethean_adj:0 "先行者构造的"
+ promethean_plural:0 "先行者构造们"
+ promethean_insult_01:0 "没有灵魂的机械"
+ promethean_insult_plural_01:0 "没有灵魂的机械们" 
+ promethean_compliment_01:0 "衣钵的守护者"
+ promethean_compliment_plural_01:0 "衣钵的守护者们"
+ promethean_spawn:0 "构造物"
+ promethean_spawn_plural:0 "构造物们"
+ promethean_sound_01:0 "呼呼声"
+ promethean_sound_02:0 "铿锵声"
+ promethean_sound_03:0 "刮擦声"
+ promethean_sound_04:0 "哔哔声"
+ promethean_sound_05:0 "叽叽喳喳声"
+ promethean_organ:0 "个性构造阵列"
+ promethean_mouth:0 "声音处理器"
+ promethean_hand:0 "硬光刃"
+ 
+ sentinel:0 "哨兵"
+ sentinel_desc:0 "先行者建造的AI构造"
+ sentinel_adj:0 "哨兵的"
+ sentinel_plural:0 "哨兵们"
+ sentinel_insult_01:0 "没有灵魂的机械"
+ sentinel_insult_plural_01:0 "没有灵魂的机械们" 
+ sentinel_compliment_01:0 "管理员"
+ sentinel_compliment_plural_01:0 "管理员们"
+ sentinel_spawn:0 "构造物"
+ sentinel_spawn_plural:0 "构造物们"
+ sentinel_sound_01:0 "呼呼声"
+ sentinel_sound_02:0 "铿锵声"
+ sentinel_sound_03:0 "刮擦声"
+ sentinel_sound_04:0 "哔哔声"
+ sentinel_sound_05:0 "叽叽喳喳声"
+ sentinel_organ:0 "个性构造阵列"
+ sentinel_mouth:0 "声音处理器"
+ sentinel_hand:0 "附属品"
+ 
+ 
+ promethean_drone:0 "普罗米修斯造物"
+ 
+ nomos_init_NAME:0 "诺莫斯星系"
+ nomos_init_DESC:0 "从诺莫斯星系的"创世星"开始：那里是先行者的人工世界和通往智域的闸道。"
+ 
+ domain_gateway:0 "通往智域的闸道"
+ domain_gateway_desc:0 "创世星是一个由先行者建造的人工世界，用来播种和保存文明的世界。进入智域的闸道是行星上的一个装置，也隐藏在行星上。该结构与智域相连，智域是古代知识的非物质储备，是先行者作为其文化和历史的精髓和活生生的表现的集体经验。" 
+ 
+ ################
+ # Flags
+ ################
+ 
+ FLAG_CATEGORY_promethean:0 "先行者"
+ 
+ ################
+ # Namelists
+ ################
+ 
+ name_list_promethean:0 "光环：普罗米修斯"
+ name_list_created:0 "光环：创造物"
+ name_list_sentinels:0 "光环：哨兵"
+ 
+ ################
+ # REQUIEM
+ ################
+ epoloch_init_NAME:0 "埃波洛赫星系"
+ epoloch_init_DESC:0 "从埃波洛赫星系上的安魂星开始;普罗米修斯的先行者护盾世界和中央运营中心。"
+ 
+ 
+ pc_requiem:0 "护盾世界 0001"
+ pc_requiem_desc:0 "由先行者建造的人工自我维持装置。这个早期的护盾世界由多个同心行星外壳组成，彼此封闭，密封在一个大的装甲外壳内。"
+ 
+ district_requiem_city:0 "顶端"
+ district_requiem_city_plural:0 "顶端"
+ district_requiem_city_desc:0 "其表面的巨型尖顶能够容纳大型人口中心或军队。"
+ 
+ district_requiem_nexus:0 "中枢"
+ district_requiem_nexus_plural:0 "中枢"
+ district_requiem_nexus_desc:0 "其表面的巨型尖顶能够容纳大型人口中心或军队。"
+ 
+ district_requiem_hive:0 "蜂巢顶端"
+ district_requiem_hive_plural:0 "蜂巢顶端"
+ district_requiem_hive_desc:0 "其表面的巨型尖顶能够容纳大型人口中心或军队。"
+ 
+ district_requiem_generator:0 "太阳能工厂"
+ district_requiem_generator_plural:0 "太阳能工厂"
+ district_requiem_generator_desc:0 "谐波共振平台管理着护盾世界太阳能保护系统，从安魂星的微型人造恒星收集能量。"
+ 
+ district_requiem_mining:0 "矿物提取器"
+ district_requiem_mining_plural:0 "矿物提取器"
+ district_requiem_mining_desc:0 "位于大型火山山脉内的设施处理从开采的矿石中提取的矿物。"
+ 
+ district_requiem_science:0 "研究设施"
+ district_requiem_science_plural:0 "研究设施"
+ district_requiem_science_desc:0 "安魂星拥有多个先进的研究设施，遍布其保护领域。"
+ 
+ district_requiem_farming:0 "仓库"
+ district_requiem_farming_plural:0 "仓库"
+ district_requiem_farming_desc:0 "防御良好的储存设施，作为民众的"安全屋"，提供基本设施和保护。" 
+ 
+ #REQUIEM DEPOSITS
+ pc_requiem:0 "护盾世界 0001"
+ pc_requiem_desc:0 "由先行者建造的人工自我维持装置。这个早期的护盾世界由多个同心行星外壳组成，彼此封闭，密封在一个大的装甲外壳内。"
+ 
+ d_requiem_apex:0 "顶点枢纽"
+ d_requiem_apex_desc:0 "通过其令人难以置信的大型传送门生成器网络，可轻松访问护盾世界的许多位置。"
+ 
+ d_requiem_lockup:0 "港口装置"
+ d_requiem_lcokup_desc:0 "战斗舰艇的停泊、修理和改装地点。" 
+ 
+ d_requiem_ravine:0 "峡谷战场"
+ d_requiem_ravine_desc:0 "一些要塞战略性地放置，以保护整个护盾世界的重要位置。它们还连接到地表以下较大的中央结构。"
+
+ d_requiem_cauldron:0 "热处理器系统"
+ d_requiem_cauldron_desc:0 "该装置位于一个大型火山山脉内，用于稳定行星深处的大气层。"
+ 
+ #REQUIEM MODIFIERS
+ 
+ requiem_war_room:0 "普罗米修斯操作枢纽"
+ requiem_war_room_desc:0 "作为第一批建造的护盾世界之一，安魂星被认为是数千年来所有先行者部队和战争成效的中心枢纽，也是居境保护者的个人家园。"
+ 
+ combat_cryptum:0 "战斗冥冢"
+ combat_cryptum_desc:0 "位于安魂星的核心是真·宣教士的秘密，一个断层空间停滞室，用作先行者的流放手段或与智域，一个大型信息存储库通信的方法。此特定模型是一个战斗冥冢，为用户提供保护和在安魂星移动的权宜之计。"  
+ 
+ 
+ #ORIGIN
+ origin_requiem:0 "护盾世界：安魂星"
+ origin_requiem_desc:0 "安魂星是一个人工先行者护盾世界和普罗米修斯的中央行动中心。作为一个护盾世界，它被设计成几乎无法从轨道轰炸。"
+ origin_tooltip_requiem_effects:0 "- 家园世界是一个 §Y$pc_requiem$§! （大小： £planetsize£ §Y20§! ）。"
+ 
+ origin_created_genesis:0 "创世星和智域"
+ origin_created_genesis_desc:0 "创世纪是一个人工的先行者世界，秘密地拥有通往智域的闸道，智域是一个全银河系的古老知识库。"
+ origin_tooltip_created_genesis_effects:0 "- 家园世界是一个 §Y$pc_gaia$§! （大小： £planetsize£ §Y25§! ）。"
+ 
+ 

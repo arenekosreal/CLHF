@@ -1,0 +1,361 @@
+﻿l_simp_chinese:
+ 
+ personality_covenant_ai:0 "Religious Zealots"
+ personality_covenant_ai_desc:0 "Like evangelizing zealots, religious zealots desire to spread their faith across all corners of the galaxy. Although they are eager to integrate other species within their ranks, they will attempt to force empires into submission if they resist."
+ 
+ personality_storm_covenant_ai:0 "Religious Cultists"
+ personality_storm_covenant_ai_desc:0 "Religious Cultists are empires that are fanatically devoted to spread their faith to all species by force if necessary. They are less likely to make aggreements with other empires and seek to dominate them and force their religion upon them."
+ 
+ personality_swords_of_sanghelios_ai:0 "Secular Warriors"
+ personality_swords_of_sanghelios_ai_desc:0 "Secular Warriors are an honorbound empire of warriors that have just recently discarded their faith in favor of a more secular government. They are less aggressive than other honorbound warrior empires and are more willing to seek out friendly relations with other empires, but they are not above conquering others when it is necessary." 
+ 
+ covenant_empire:0 "Covenant"
+ covenant_empire_desc:0 "Species of the Covenant"
+ covenant_empire_plural:0 "Covenant"
+ covenant_empire_insult_01:0 "vile beast"
+ covenant_empire_plural_01:0 "vile beasts"
+ covenant_empire_compliment_01:0 "holy Covenant"
+ covenant_empire_compliment_plural_01:0 "holy Covenant"
+ covenant_empire_spawn:0 "youngling"
+ covenant_empire_spawn_plural:0 "younglings"
+ covenant_empire_sound_01:0 "growling"
+ covenant_empire_sound_02:0 "grunting"
+ covenant_empire_sound_03:0 "yapping"
+ covenant_empire_sound_04:0 "yowling"
+ covenant_empire_sound_05:0 "mewling"
+ covenant_empire_organ:0 "stomach"
+ covenant_empire_mouth:0 "mouth"
+ covenant_empire_hand:0 "claw"
+ 
+ promethean_knight:0 "Promethean"
+ promethean_knight_desc:0 "AI Constructs built by the Forerunners"
+ promethean_knight_adj:0 "Prometheans"
+ promethean_knight_plural:0 "Promethean"
+ promethean_knight_insult_01:0 "soulless machine"
+ promethean_knight_insult_plural_01:0 "soulless machines" 
+ promethean_knight_compliment_01:0 "guardian of the Mantle"
+ promethean_knight_compliment_plural_01:0 "guardians of the Mantle"
+ promethean_knight_spawn:0 "construct"
+ promethean_knight_spawn_plural:0 "constructs"
+ promethean_knight_sound_01:0 "whirring"
+ promethean_knight_sound_02:0 "clanging"
+ promethean_knight_sound_03:0 "scraping"
+ promethean_knight_sound_04:0 "beeping"
+ promethean_knight_sound_05:0 "chattering"
+ promethean_knight_organ:0 "personality construct array"
+ promethean_knight_mouth:0 "vocal processor"
+ promethean_knight_hand:0 "blades"
+ 
+ 
+ name_list_cov_sanshyuum:0 "San'Shyuum"
+ name_list_cov_sangheili:0 "Sangheili"
+ name_list_cov_jiralhanae:0 "Jiralhanae"
+ name_list_cov_mgalekgolo:0 "Mgalekgolo"
+ name_list_cov_unggoy:0 "Unggoy"
+ name_list_cov_kigyar:0 "Kig-Yar"
+ name_list_cov_storm:0 "Sangheili Storm"
+ 
+ covenant_space_init_NAME:0 "Covenant Space"
+ covenant_space_init_DESC:0 "Start on Janjur; the homeworld of the San'Shyuum and center of the Covenant Empire. This initializer includes Covenant pops on Sanghelios (Elites), Te (Hunters), Balaho (Grunts), Eayn (Jackals), Doisac (Brutes), and Palamok (Drones)."
+ 
+ covenant_space_nopop_init_NAME:0 "Covenant Space (No pops)"
+ covenant_space_nopop_init_DESC:0 "Start on Janjur; the homeworld of the San'Shyuum species and center-point of the Covenant. This initializer has no Covenant pops on neighboring planets."
+ 
+ high_charity_init_NAME:0 "High Charity"
+ high_charity_init_DESC:0 "Start on High Charity, the holy capital city of the Covenant. This initializer includes Covenant pops on neighboring worlds."
+ 
+ high_charity_nopop_init_NAME:0 "High Charity (No Pops)"
+ high_charity_nopop_init_DESC:0 "Start on High Charity, the holy capital city of the Covenant. This initializer has no Covenant pops on neighboring worlds."
+ 
+ high_charity_standalone_init_NAME:0 "High Charity Station"
+ high_charity_standalone_init_DESC:0 "Start on High Charity, the holy capital city of the Covenant."
+ 
+ 
+ trait_pc_high_charity_preference_NAME:0 "Continental Preference"
+ trait_pc_high_charity_preference_DESC:0 "Covenant thralls on this station prefer a somewhat continental preference."
+ 
+ FLAG_CATEGORY_covenant:0 "Covenant"
+ 
+ origin_halo_covenant:0 "Covenant Hegemony"
+ origin_halo_covenant_desc:0 "The founding members of the Covenant. Start the game with each representative species in the Covenant Empire. This includes the Sangheili, Mgalekgolo, Kig-Yar, Unggoy, Jiralhanae, Yanme'e, and Huragok. Recommend picking up the San'shyuum portrait and trait as your starting species."
+ origin_tooltip_halo_covenant_effects:0 "- Homeworld is on §Y$pc_high_charity$§! (size: £planetsize£ §Y20§!)."
+ 
+ #############
+ #High Charity
+ #############
+ 
+ civic_covenant_hegemony:0 "Writ of Union"
+ civic_covenant_hegemony_desc:0 "The founding charter of, and the oath of service to, the Covenant between the Reformist San'Shyuum and the Sangheili. All must walk the path of the Great Journey."
+ civic_covenant_hegemony_tooltip_effects:0 "Pop Growth from Immigration: §G+15%§!\nUnity Production from Jobs: §R+10%§!\nEdict Cost: §R-15%§!\nLeader Pool Size: §G+4§!\n. Start the game with Sangheili pops."
+ 
+ civic_storm_covenant:0 "Didact's Hand"
+ civic_storm_covenant_desc:0 "A splinter faction of zealots that continue to worship the forerunners even after the end of the Covenant. Mostly regarded more as a terrorist organization/cult than an empire, they suffer from an empire sprawl penalty."
+ 
+ civic_didact:0 "Living Forerunner"
+ civic_didact_desc:0 "Your empire is led by an ancient and powerful alien warlord. This civic grants the trait §YLiving Forerunner§! to your starting ruler, granting them immortality with powerful modifiers. Also adds §Y4 Mechanical Promethean§! pops." 
+ 
+ leader_trait_ruler_didact:0 "Protector of the Ecumene"
+ leader_trait_ruler_didact_desc:0 "One of the last surviving Forerunners and leader of the Prometheans has awakened from his Cryptum on Requiem to lead his forces once more to reclaim the Mantle of Responsibility."
+ 
+ trait_robot_promethean_ai:0 "Mechanical Promethean"
+ trait_robot_promethean_ai_desc:0 "A robotic construct named after the Promethean Warrior-Servants that served the Ur-Didact in the Flood-Forerunner War. Promethean Knights were created after the Ur-Didact became increasingly desperate in his fight against the Flood, eventually converting many of his Warrior-Servants and unsuspecting humans into monstrous AI war machines using the 'Composer' to transfer their life essesnce into mechanical bodies that rendered them immune to infection. Promethean Knights are dangerous combatants on any battlefield."
+ 
+ civic_swords_of_sanghelios:0 "Swords of Sanghelios"
+ civic_swords_of_sanghelios_desc:0 "Another splinter faction from the Covenant led by the Arbiter on Sanghelios. This Sangheili faction is a secular and meritocratic warrior society."
+ 
+ forerunner_dreadnought:0 "Forerunner Dreadnought"
+ forerunner_dreadnought_desc:0 "Also known as the 'Anodyne Spirit' is an ancient Forerunner keyship originally discovered by the San'Shyuum on their homeworld and moved to High Charity to serve as its main power source for the holy city of High Charity. The ship has now become a centerpiece of not only this station, but to Covenant religion as a whole and represents a unifying symbol for all Covenant members across thier empire."
+ 
+ covenant_holy_capital:0 "Holy Capital City"
+ covenant_holy_capital_desc:0 "High Charity is home to a number of client races and species across the empire. Many members venture to the holy city at least once during their pilgrimages."
+ 
+ pc_high_charity_tile:0 "Covenant City"
+ pc_high_charity_tile_desc:0 "Urban Sprawl of High Charity."
+ pc_high_charity:0 "High Charity"
+ pc_high_charity_desc:0 "A massive artificial station and mobile holy city capital of the Covenant Empire."
+ high_charity:0 "High Charity"
+ high_charity_desc:0 "A massive artificial station and mobile holy city capital of the Covenant Empire."
+ 
+ trait_pc_high_charity_preference:0 "Sterile Preference"
+ trait_pc_high_charity_preference_desc:0 "Climate preference for controlled environments such as space stations or installations."
+ 
+ building_cov_province:0 "High Charity Grand Estates"
+ building_cov_province_desc:0 "The vast regions of High Charity's urban landscape contain thousands of habitats and districts for all Covenant races."
+ 
+ building_cov_sanctum:0 "High Council Chamber"
+ building_cov_sanctum_desc:0 "A massive hall within the holy city of High Charity where only high-ranking members of the Covenant are ever allowed inside. The building contains massive chambers where the Covenant High Council meet to discuss matters of policy and disipline among the Covenant." 
+ 
+ ###################
+ #PLANETARY FEATURES
+ ###################
+ 
+ d_mausoleum_of_the_arbiter:0 "Mausoleum of the Arbiter"
+ d_mausoleum_of_the_arbiter_desc:0 "A massive chamber within High Charity that housed the remains of the previous Arbiters, a title once held by the greatest of Sangheili leaders. However due to recent events within Covenant history, the title of Arbiter has became a mark of shame for disgraced Sangheili to reclaim their honor by completing suicidal missions in the service of the Hierarchs until their untimely demise."
+ 
+ d_inner_sanctum:0 "Sanctum of the Hierarchs"
+ d_inner_sanctum_desc:0 "The private quarters of the High Prophets on High Charity restricted only to the Sanshyuum and high-ranking Sangheili Councilors or officers."
+ 
+ d_shard_chamber:0 "Shard Chamber"
+ d_shard_chamber_desc:0 "A massive chamber within the sanctum ornamented with shards of smooth glass from all the worlds glassed by the Covenant."
+ 
+ d_garden_of_reverent_contemplation:0 "Garden of Reverent Contemplation"
+ d_garden_of_reverent_contemplation_desc:0 "A chamber dedicated to the High Prophet of Truth and a place of thought and worship for the devout."
+ 
+ d_valley_of_tears:0 "Valley of Tears"
+ d_valley_of_tears_desc:0 "A large natural environment module located between the towers near the edge of the city's main dome." 
+ 
+ d_hanging_gardens:0 "Hanging Gardens"
+ d_hanging_gardens_desc:0 "Several natural environment modules within High Charity that were suspended in mid-air and consisting of natural features such as a flowing artificial river, soil and plant life, and a series of ramps and walkways."
+ 
+ d_assembly_forges:0 "Assembly Forges"
+ d_assembly_forges_desc:0 "A large manufacturing facility that uses clouds of programmable nanomachines to create war matériel and other alloys or goods."
+ 
+ d_trial_court_for_tools_of_conquest:0 "Trial Court for Tools of Conquest"
+ d_trial_court_for_tools_of_conquest_desc:0 "An advanced weapons testing facility on High Charity including the chamber of Gravitational Refinement used for gravity manipulation."
+ 
+ d_holding_chambers:0 "Holding Chambers"
+ d_holding_chambers_desc:0 "A series of holding cells or pens within High Charity that keep thousands of convicts, traitors, and prisoners of war." 
+ 
+ d_forerunner_dreadnought:0 "Forerunner Power Core"
+ d_forerunner_dreadnought_desc:0 "The power core of Anodyne Spirit provides power to nearly every district, system, and province on High Charity."
+ 
+ d_sanghelios_ruins:0 "Ruins of Nuusra"
+ d_sanghelios_ruins_desc:0 "Located on the continent of Qivro on Sanghelios, these structures were built thousands of years ago detailing the ancient heritage of the Sangheili."
+ 
+ d_sanghelios_sunaion:0 "Sunaion City"
+ d_sanghelios_sunaion_desc:0 "A Sangheili city located on the continent of Qivro on Sanghelios. After a Forerunner Guardian was discovered in the Csurdon Sea off the Nuusra coastlines, the ancient Sangheili later built this city over the water near the it to serve as a temple to worship the Forerunner machine."
+ 
+ d_te_lekgolo_colony:0 "Lekgolo Colony"
+ d_te_lekgolo_colony_desc:0 "A large colony of Lekgolo worms inhabit the underground caverns of this moon."
+ 
+ ##############
+ #Janjur System
+ ##############
+ janjur_qom_init_NAME:0 "Janjur System"
+ janjur_qom_init_DESC:0 "Start on Janjur Qom; the elusive homeworld of the San'Shyuum."
+ 
+ ###########
+ #Urs System
+ ###########
+ urs_init_NAME:0 "Urs System"
+ urs_init_DESC:0 "Start on Sanghelios; the homeworld of the Sangheili warrior race."
+ 
+ subanese_crystal:0 "Subanese Crystals"
+ subanese_crystal_desc:0 "Also known as Blamite is a unique resource found exclusively on Suban. These crystals have special explosive properties that makes them highly valuable for military use."
+ 
+ merchants_of_qikost:0 "Merchants of Qikost"
+ merchants_of_qikost_desc:0 "Located in many of the large industrial and population centers on Qikost, the Merchants of Qikost are a group of Sangheili merchants that forge war matériel for the Sangheili and later the Covenant."
+ 
+ forerunner_structures:0 "Forerunner Technology"
+ forerunner_structures_desc:0 "Scattered technology left behind by the enigmatic Forerunners, a hyper-advanced civilization that existed over 100,000 cycles. Many sentients worship them as gods, forming religions around their technological marvels while others seek to unlock their true potential."
+ 
+ pc_suban:0 "Molten Moon"
+ pc_suban_desc:0 "A large natural satellite that contains rich ore and minerals."
+ 
+ 
+ ############
+ #Svir System
+ ############
+ te_init_NAME:0 "Svir System"
+ te_init_DESC:0 "Start on the moon of Te; the inhospitable homeworld of the Lekgolo."
+ 
+ ##############
+ #Y'Deio System
+ ##############
+ eayn_init_NAME:0 "Y'Deio System"
+ eayn_init_DESC:0 "Start on Eayn; the seedy homeworld of the Kig-Yar."
+ 
+ ############
+ #Tala System
+ ############
+ balaho_init_NAME:0 "Tala System"
+ balaho_init_DESC:0 "Start on Balaho; the desolate homeworld of the Unggoy."
+ 
+ #################
+ #Oth Sonin System
+ #################
+ doisac_init_NAME:0 "Oth Sonin System"
+ doisac_init_DESC:0 "Start on Doisac; the savage homeworld of the Jiralhanae."
+ 
+ ##############
+ #Napret System
+ ##############
+ palamok_init_NAME:0 "Napret System"
+ palamok_init_DESC:0 "Start on Palamok; the homeworld of the Yanme'e hive."
+ 
+ 
+ ##############
+ #Aspero System
+ ##############
+ 
+ hesduros_init_NAME:0 "Aspero System"
+ hesduros_init_DESC:0 "Start on Hesduros; an old Sangheili colony and birthplace of Jul'Mdama's Covenant."
+ 
+ ############
+ #Te System
+ ############
+ pc_te:0 "Habitable Moon"
+ pc_te_desc:0 "A moon that is capable of sustaining life."
+ 
+ trait_pc_te_preference:0 "Te Preference"
+ trait_pc_te_preference_desc:0 "Habitable moon preference."
+ 
+ te_forerunner_structures:0 "Abandoned Forerunner Structures"
+ te_forerunner_structures_desc:0 "Although the moons of Te appear inhospitable on the surface, beneath the barren rock lie vast caverns and interconnected tunnels that the Lekgolo created to house their species. Forerunner structures are also present on the moon including the destroyed remnants of a forerunner installation which created the artificial ring around gas giant."
+ 
+ ###########
+ # TEMP
+ ###########
+ trait_sanshyuum_species:0 "San'Shyuum"
+ trait_sanshyuum_species_desc:0 "An intelligent and manipulative species from the planet Janjur Qom that have exerted control and influence within the Covenant for a millennia as one of its oldest founders. They revere Forerunner technology as sacred and divine." 
+ 
+ trait_jiralhanae_species:0 "Jiralhanae"
+ trait_jiralhanae_species_desc:0 "A large carnivorous and savage species from the planet Doisac. Jiralhanae are highly aggressive and prone to be hostile and territorial around other species. However, they often form strong bonds with other Jiralhanae in their pack."
+ 
+ trait_mgalekgolo_species:0 "Lekgolo/Mgalekgolo"
+ trait_mgalekgolo_species_desc:0 "A gestalt race of worm-like creatures that combine to form large and more powerful assemblages called Mgalekgolo."
+
+ trait_kigyar_species:0 "Kig-Yar"
+ trait_kigyar_species_desc:0 "A race of saurians known for their heightened senses and marksmanship as well as their constant tendency for piracy and mercenary work." 
+ 
+ trait_unggoy_species:0 "Unggoy"
+ trait_unggoy_species_desc:0 "A race of bipedal xeno-anthropodal vertebroids, Unggoy are sapient but inept, poor soldiers, and are often cowardly. However, they make up for their deficiencies in sheer tenacity and large numbers. Used as fodder for the Covenant."
+ 
+ trait_yanmee_species:0 "Yanme'e"
+ trait_yanmee_species_desc:0 "An insectoid flight-capable hive-minded race from the planet Palamok that serve as worker drones within the Covenant hierarchy. They are also used as aerial support."
+ 
+ trait_sangheili_species:0 "Sangheili"
+ trait_sangheili_species_desc:0 "A saurian warrior race from Sanghelios known for their martial culture and becoming one of founding members of the Covenant. In the Covenant, they revered Forerunner technology with religious zeal alongside the San'Shyuum."
+
+ trait_huragok_species:0 "Huragok"
+ trait_huragok_species_desc:0 "An artificial life-form created by the Forerunners as a sentient biological computer. Used by the Covenant as engineers and life-workers for maintaining their technology."
+ 
+ trait_forerunner_species:0 "Forerunner"
+ trait_forerunner_species_desc:0 "A extremely technologically advanced race of beings that once served as caretakers of the galaxy greater than the Fallen Empires of old. They normally mature through artificially-induced mutations that modify their bodies to better suit their tasks. Each Forerunner wears a personalized set of armor that further improves their physiology, mental faculties, and renders them virtually immortal."
+ 
+ civic_integrity_field:0 "Shield-reinforced armor"
+ civic_integrity_field_desc:0 "Instead of traditional shields, ships are reinforced with an internal energy field that strengthens hull integrity."
+ 
+ district_hcarcology_housing:0 "Housing Province"
+ district_hcarcology_housing_plural:0 "Housing Provinces"
+ district_hcarcology_housing_desc:0 "Areas of High Charity known as 'cloisters', houses billions of menials within the Golden City."
+ 
+ district_hcarcology_arms_industry:0 "Assembly Forge District"
+ district_hcarcology_arms_industry_plural:0 "Assembly Forge Districts"
+ district_hcarcology_arms_industry_desc:0 "High Charity houses multiple assembly forges within the city for the creation of war matériel."
+ 
+ district_hcarcology_civilian_industry:0 "Gifting Spire District"
+ district_hcarcology_civilian_industry_plural:0 "Gifting Spire Districts"
+ district_hcarcology_civilian_industry_desc:0 "Below the city lies the Unbreakable Spine of High Charity that contains hundreds of docking platforms for merchants and tithe-fleets."
+ 
+ district_hcarcology_leisure:0 "Lower District"
+ district_hcarcology_leisure_plural:0 "Lower Districts"
+ district_hcarcology_leisure_desc:0 "The lower districts houses several entertainment hubs for the city's lower menials."
+ 
+ 
+ #COVENANT ARMIES
+ 
+ 
+ #COVENANT VEHICLES
+ cov_ghost_company:0 "Type-32 Rapid Attack Vehicle Company (Ghost)"
+ cov_ghost_company_desc:0 "Iruiru Armory's standard reconnaissance and rapid attack vehicle. Lightly armed and armored hovercraft."
+ 
+ cov_locust_company:0 "Type-30 Light Excavation Company (Locust)"
+ cov_locust_company_desc:0 "A quadrupedal Covenant vehicle used for mining and combat operations. Equipped with Energy Shields and a Focus Cannon that can be used to fire concentrated superheated plasma at enemy targets or structures."
+ 
+ cov_spectre_company:0 "Type-46 Infantry Support Vehicle (Spectre)"
+ cov_spectre_company_desc:0 "A anti-infantry and transportation vehicle used by the Covenant to offer fire support to other vehicles."
+ 
+ cov_revenant_company:0 "Type-48 Light Assault Gun Carriage (Revenant) Company"
+ cov_revenant_company_desc:0 "A lightly armored vehicle used to provide artillery support for infantry forces. It uses a downscaled version of the heavy plasma mortar used by the Type-26 Wraith."
+ 
+ cov_wraith_tank:0 "Type-26 Assault Gun Carriage (Wraith)"
+ cov_wraith_tank_desc:0 "A large heavily armored artillery vehicle used as the primary ground vehicle used by the Covenant. This tank is armed with a large Type-26 Directed-Energy Mortar used to fire a magnetically encapsulated blob of superheated plasma at long distances."
+ 
+ cov_banshee_squadron:0 "Type-26 Ground Support Craft Squadron (Banshee)"
+ cov_banshee_squadron_desc:0 "A versatile and maneuverable ground assault aircraft armed with rapid fire plasma cannons and a powerful fuel rod cannon to penetrate hardened ground targets."
+ 
+ cov_phantom_gunship:0 "Type-52 Troop Carrier Gunship (Phantom) "
+ cov_phantom_gunship_desc:0 "A large dropship and gunship used by the Covenant to deploy infantry into combat zones while providing suppressive fire. Armed with a heavy plasma cannon and side mounted plasma cannons."
+ 
+ cov_scarab:0 "Type-47B Ultra-Heavy Assault Platform (Scarab)"
+ cov_scarab_desc:0 "A large, heavily armored, all-terrain, quadrupedal walker used by the Covenant for deep excavation, now re-purposed for combat. Armed with a large Focus Cannon and heavy plasma cannons, the Scarab is known for striking fear into its opponents and demolishing enemy fortifications with ease."
+ 
+ cov_kraken:0 "Type-55 Ultra-Heavy Siege Tower (Kraken)"
+ cov_kraken_desc:0 "A massive Covenant walker used as a siege tower and mobile fortress containing an array of Covenant air vehicles and infantry."
+ 
+ #BRUTE VEHICLES
+ brute_chopper_company:0 "Type-25 Chopper Company"
+ brute_chopper_company_desc:0 "A rapid attack and scout vehicle used by the Jiralhanae armed with an array of autocannons and spikers used to skewer infantry and vehicles. Another feature is its bladed chassis used for ramming targets." 
+ 
+ brute_prowler_company:0 "Type-52 Infantry Support Vehicle (Prowler)"
+ brute_prowler_company_desc:0 "A support vehicle used by the Jiralhane to offer fire support alongside other vehicles. This vehicle is also capable of ramming."
+ 
+ 
+ #COVENANT BUILDINGS
+ building_cov_hall:0 "Covenant Hall"
+ building_cov_hall_desc:0 "A barracks for the well-trained and numerous infantry of the Covenant."
+ 
+ building_cov_factory:0 "Covenant Factory"
+ building_cov_factory_desc:0 "A facility used to produce Covenant vehicles on-site using similar technology used in the Assembly Forges on High Charity. Allows the production of Covenant vehicles."
+ 
+ building_cov_assembly_forge:0 "Assembly Forge"
+ building_cov_assembly_forge_desc:0 "A replica of High Charity's Assembly Forge that uses clouds of programmable nanomachines to mass produce war matériel on a large-scale. Allows the production of the §YScarab§! and §YKraken§!."
+ 
+ building_cov_summit:0 "Covenant Summit"
+ building_cov_summit_desc:0 "A facility used to construct Covenant air-based vehicles on-site. Allows the production of Covenant air-based armies" 
+ 
+ #COVENANT ARMY TECH
+ tech_covenant_light_vehicles:0 "Covenant Light Vehicle Assembly"
+ tech_covenant_light_vehicles_desc:0 "The assembly forges can provide an array of support craft to help augment our standing forces."
+ 
+ tech_covenant_excavators:0 "Covenant Excavator Assembly"
+ tech_covenant_excavators_desc:0 "These platforms are primarily used for deep excavation of artifacts and holy relics. However, they can also be re-purposed for combat if deemed necessary."
+ 
+ tech_covenant_heavy_vehicles:0 "Covenant Heavy Vehicle Assembly"
+ tech_covenant_heavy_vehicles_desc:0 "Instruct the Assembly Forges to design new templates for larger and more heavily-armed vehicles to further our cause."
+ 
+ tech_covenant_air_vehicles:0 "Covenant Air Vehicle Assembly"
+ tech_covenant_air_vehicles_desc:0 "Instruct the Assembly Forges to create new design templates for ariel support vehicles."
+ 
+ 

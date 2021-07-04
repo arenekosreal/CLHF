@@ -1,0 +1,63 @@
+﻿l_simp_chinese:
+ 
+ personality_banished_ai:0 "雇佣兵"
+ personality_banished_ai_desc:0 "雇佣兵是海盗、奴隶和雇佣兵的集群，他们为了自己的利益和荣耀而袭击或掠夺其他帝国，以牟取暴利。他们更愿意签订商业协定，但他们对和平或加入联邦不感兴趣。"
+ 
+ 
+ banished:0 "流放者"
+ banished_desc:0 "流放者种族"
+ banished_plural:0 "流放者们"
+ banished_insult_01:0 "肮脏的拾荒者"
+ banished_plural_01:0 "肮脏的拾荒者们"
+ banished_compliment_01:0 "佣兵"
+ banished_compliment_plural_01:0 "佣兵们"
+ banished_spawn:0 "幼兽"
+ banished_spawn_plural:0 "幼兽们"
+ banished_sound_01:0 "咆哮"
+ banished_sound_02:0 "叫声"
+ banished_sound_03:0 "打哈欠"
+ banished_sound_04:0 "号叫"
+ banished_sound_05:0 "喵喵叫"
+ banished_organ:0 "胃部"
+ banished_mouth:0 "嘴巴"
+ banished_hand:0 "握"
+ 
+ name_list_banished:0 "流放者"
+ 
+ ##############
+ #The Banished
+ ##############
+ FLAG_CATEGORY_banished:0 "流放者"
+ 
+ trait_banished_species:0 "流放者"
+ trait_banished_species_desc:0 "流放者是反抗星盟的罪犯、拾荒者、流亡者和没有荣耀的战士组成的雇佣军团体，由基拉哈尼统治，并吸纳了向斐力、昂苟伊和列勾卢等种族。它们通过无情和暴力的征服，以突袭，掠夺来获取相应的荣耀和财富。"
+ 
+ civic_banished:0 "流放者雇佣兵"
+ civic_banished_desc:0 "流放者是反抗星盟的分裂派别，是由基拉哈尼军阀阿崔奥克斯创立的雇佣军组织，该组织由无情的实用主义、扭曲的竞争精英主义和个人荣耀所统治，并试图通过突袭和军事征服来增加其实力。"
+ 
+ 
+ #################
+ #Oth Sonin System
+ #################
+ doisac_init_NAME:0 "奥斯索尼星系"
+ doisac_init_DESC:0 "从多伊萨克开始，这里是基拉哈尼人野蛮的家园"
+ 
+ 
+ ###########
+ # TEMP
+ ###########
+ trait_jiralhanae_species:0 "基拉哈尼"
+ trait_jiralhanae_species_desc:0 "基拉哈尼是来自多伊萨克星球的大型食肉和野蛮物种，具有很强的侵略性，容易在他人周围产生敌意和领土。"
+ 
+ trait_mgalekgolo_species:0 "列勾卢/马格列勾卢"
+ trait_mgalekgolo_species_desc:0 "一种类似蠕虫的格式塔种族，可以结合形成大型的组合，称为马格列勾卢。"
+
+ trait_unggoy_species:0 "昂苟伊"
+ trait_unggoy_species_desc:0 "一个双足异体脊椎动物的种族，昂苟伊是非常聪明，但无能、可怜并且懦弱的士兵，但它们通过坚韧和大量来弥补了这些缺陷。"
+ 
+ trait_sangheili_species:0 "向斐力"
+ trait_sangheili_species_desc:0 "来自向斐力奥斯的蜥蜴类战士，它们以其军事文化而闻名，是星盟的创始种族之一。在星盟中他们以宗教般热情崇敬先行者技术。"
+
+ trait_huragok_species:0 "哈拉克"
+ trait_huragok_species_desc:0 "由先行者作为有知觉的生物计算器创造的人工生命形式。被星盟用作先行者技术的工程师和生命工作者。"
+ 
